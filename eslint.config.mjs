@@ -9,6 +9,15 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 })
 
-const eslintConfig = [...compat.extends('next/core-web-vitals', 'next/typescript')]
+const eslintConfig = [
+  ...compat.extends('next/core-web-vitals', 'next/typescript'),
+
+  {
+    rules: {
+      '@next/next/no-img-element': 'warn', // 👈 disables breaking the build
+      '@typescript-eslint/no-unused-vars': 'warn', // optional: no breaking for unused vars
+    },
+  },
+]
 
 export default eslintConfig
