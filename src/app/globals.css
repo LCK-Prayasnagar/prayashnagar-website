@@ -121,3 +121,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+.gradient-text {
+  background: linear-gradient(
+    to right,
+    #F7D286 0%,
+    #DFBF7F 21%,
+    #12184F 31%,
+    #1F2554 49%,
+    #12184F 75%,
+    #12184F 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
