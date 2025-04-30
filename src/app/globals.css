@@ -125,12 +125,26 @@
 .gradient-text {
   background: linear-gradient(
     to right,
-    #F7D286 0%,
-    #DFBF7F 21%,
-    #12184F 31%,
-    #1F2554 49%,
-    #12184F 75%,
-    #12184F 100%
+    #f7d286 0%,
+    #dfbf7f 21%,
+    #12184f 31%,
+    #1f2554 49%,
+    #12184f 75%,
+    #12184f 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-reverse {
+  background: linear-gradient(
+    to right,
+    #12184f 0%,
+    #1f2554 20%,
+    #12184f 30%,
+    #f7d286 40%,
+    #dfbf7f 100%
   );
   -webkit-background-clip: text;
   background-clip: text;
