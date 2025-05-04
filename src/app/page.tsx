@@ -1,3 +1,10 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'LCK Prayashanagar',
+  description: 'Leo Club of Kathmandu Prayasnagar - Hands to Serve, Hearts to Love',
+}
+
 export default function Home() {
   return (
     <>
