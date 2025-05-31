@@ -33,7 +33,7 @@ export default function Home() {
                 {/* About Us Button */}
                 <a
                   className="inline-block px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
-                  href="#"
+                  href="/about"
                 >
                   About Us →
                 </a>
@@ -226,13 +226,13 @@ export default function Home() {
                 <div className="flex justify-end mr-3">
                   <a
                     className="px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
-                    href="#"
+                    href="/about"
                   >
                     About Us →
                   </a>
                 </div>
 
-                <div className="flex align-bottom gap-14 mt-16 justify-end">
+                <div className="flex align-bottom gap-5 mt-16 justify-end">
                   <div className="flex cursor-pointer items-center gap-2">
                     <svg
                       className="w-5 h-5"
