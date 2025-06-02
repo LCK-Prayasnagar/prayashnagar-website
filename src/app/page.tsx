@@ -39,7 +39,7 @@ export default function Home() {
                 </a>
                 {/* Location and Contact Icons */}
                 <div className="flex align-bottom gap-14 mt-28">
-                  <div className="flex cursor-pointer items-center gap-2">
+                  <div className="flex cursor-pointer items-center gap-2" onClick={() => {}}>
                     <svg
                       className="w-5 h-5"
                       fill="none"
@@ -62,7 +62,7 @@ export default function Home() {
                     </svg>
                     <span>Location</span>
                   </div>
-                  <div className="flex cursor-pointer items-center gap-2">
+                  <div className="flex cursor-pointer items-center gap-2" onClick={() => {}}>
                     <svg
                       className="w-5 h-5"
                       fill="none"
@@ -99,7 +99,10 @@ export default function Home() {
 
                 {/* Social Media Icons */}
                 <div className="flex gap-4 justify-end mt-20 pe-20">
-                  <a href="#" className="text-blue-900 hover:text-blue-700">
+                  <a
+                    href="https://www.facebook.com/leoktmprayasnagar"
+                    className="text-blue-900 hover:text-blue-700"
+                  >
                     <svg
                       className="w-10 h-10"
                       fill="currentColor"
@@ -109,7 +112,10 @@ export default function Home() {
                       <path d="M12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 4.41 3.58 8.06 8.22 9.54v-6.75h-2.48v-2.79h2.48v-2.13c0-2.45 1.5-3.79 3.69-3.79 1.05 0 1.95.08 2.21.11v2.57h-1.52c-1.19 0-1.42.57-1.42 1.4v1.84h2.84l-.37 2.79h-2.47v6.75c4.64-1.48 8.22-5.13 8.22-9.54 0-5.5-4.46-9.96-9.96-9.96z" />
                     </svg>
                   </a>
-                  <a href="#" className="text-blue-900 hover:text-blue-700">
+                  <a
+                    href="https://www.instagram.com/leo_prayasnagar/"
+                    className="text-blue-900 hover:text-blue-700"
+                  >
                     <svg
                       className="w-10 h-10"
                       fill="currentColor"
@@ -119,7 +125,7 @@ export default function Home() {
                       <path d="M12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 5.5 4.46 9.96 9.96 9.96s9.96-4.46 9.96-9.96c0-5.5-4.46-9.96-9.96-9.96zm0 1.8c4.41 0 7.98 3.58 7.98 7.98s-3.58 7.98-7.98 7.98-7.98-3.58-7.98-7.98 3.58-7.98 7.98-7.98zm0 2.7c-2.94 0-5.34 2.4-5.34 5.34s2.4 5.34 5.34 5.34 5.34-2.4 5.34-5.34-2.4-5.34-5.34-5.34zm0 1.8c1.98 0 3.6 1.62 3.6 3.6s-1.62 3.6-3.6 3.6-3.6-1.62-3.6-3.6 1.62-3.6 3.6-3.6zm5.58-2.52v1.8h-1.8v-1.8h1.8z" />
                     </svg>
                   </a>
-                  <a href="#" className="text-blue-900 hover:text-blue-700">
+                  {/* <a href="#" className="text-blue-900 hover:text-blue-700">
                     <svg
                       className="w-10 h-10"
                       fill="currentColor"
@@ -128,8 +134,8 @@ export default function Home() {
                     >
                       <path d="M19.62 2.04h-15.24c-2.49 0-4.38 1.89-4.38 4.38v15.24c0 2.49 1.89 4.38 4.38 4.38h15.24c2.49 0 4.38-1.89 4.38-4.38v-15.24c0-2.49-1.89-4.38-4.38-4.38zm-11.16 17.1h-2.7v-9.36h2.7v9.36zm-1.35-10.62c-.87 0-1.56-.72-1.56-1.56s.69-1.56 1.56-1.56 1.56.72 1.56 1.56-.69 1.56-1.56 1.56zm12.06 10.62h-2.7v-5.04c0-1.2-.42-2.04-1.5-2.04-.81 0-1.29.54-1.5 1.08-.06.18-.06.42-.06.66v5.34h-2.7v-9.36h2.7v1.26c.39-.6 1.08-1.44 2.64-1.44 1.92 0 3.36 1.26 3.36 3.96v5.58z" />
                     </svg>
-                  </a>
-                  <a href="#" className="text-blue-900 hover:text-blue-700">
+                  </a> */}
+                  {/* <a href="#" className="text-blue-900 hover:text-blue-700">
                     <svg
                       className="w-10 h-10"
                       fill="currentColor"
@@ -138,7 +144,7 @@ export default function Home() {
                     >
                       <path d="M12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 4.41 3.58 8.06 8.22 9.54v-6.75h-2.48v-2.79h2.48v-2.13c0-2.45 1.5-3.79 3.69-3.79 1.05 0 1.95.08 2.21.11v2.57h-1.52c-1.19 0-1.42.57-1.42 1.4v1.84h2.84l-.37 2.79h-2.47v6.75c4.64-1.48 8.22-5.13 8.22-9.54 0-5.5-4.46-9.96-9.96-9.96z" />
                     </svg>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
