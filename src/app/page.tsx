@@ -37,9 +37,23 @@ export default function Home() {
                 >
                   About Us →
                 </a>
+
+                <a
+                  className="inline-block px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
+                  href="/team"
+                >
+                  Our Team →
+                </a>
+                <a
+                  className="inline-block px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
+                  href="/message"
+                >
+                  Message From The President →
+                </a>
+
                 {/* Location and Contact Icons */}
                 <div className="flex align-bottom gap-14 mt-28">
-                  <div className="flex cursor-pointer items-center gap-2" onClick={() => {}}>
+                  <div className="flex cursor-pointer items-center gap-2">
                     <svg
                       className="w-5 h-5"
                       fill="none"
@@ -60,9 +74,12 @@ export default function Home() {
                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg>
-                    <span>Location</span>
+                    <span>Prayasnagar, Basundhara</span>
                   </div>
-                  <div className="flex cursor-pointer items-center gap-2" onClick={() => {}}>
+                  {/* <div
+                    className="flex cursor-pointer items-center gap-2"
+                    // onClick={() => {}}
+                  >
                     <svg
                       className="w-5 h-5"
                       fill="none"
@@ -77,8 +94,8 @@ export default function Home() {
                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                       />
                     </svg>
-                    <span>Contact</span>
-                  </div>
+                    <span>lckprayasnagar325l@gmail.com</span>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -237,7 +254,22 @@ export default function Home() {
                     About Us →
                   </a>
                 </div>
-
+                <div className="flex justify-end mr-3">
+                  <a
+                    className="px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
+                    href="/team"
+                  >
+                    Our Team →
+                  </a>
+                </div>
+                <div className="flex justify-end mr-3">
+                  <a
+                    className="px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
+                    href="/message"
+                  >
+                    Message From The President
+                  </a>
+                </div>
                 <div className="flex align-bottom gap-5 mt-16 justify-end">
                   <div className="flex cursor-pointer items-center gap-2">
                     <svg
@@ -260,9 +292,9 @@ export default function Home() {
                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg>
-                    <span>Location</span>
+                    <span>Prayasnagar, Basundhara </span>
                   </div>
-                  <div className="flex cursor-pointer items-center gap-2">
+                  {/* <div className="flex cursor-pointer items-center gap-2">
                     <svg
                       className="w-5 h-5"
                       fill="none"
@@ -277,8 +309,8 @@ export default function Home() {
                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                       />
                     </svg>
-                    <span>Contact</span>
-                  </div>
+                    <span>lckprayasnagar325l@gmail.com</span>
+                  </div> */}
                 </div>
               </div>
             </div>
