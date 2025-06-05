@@ -122,10 +122,6 @@
   }
 }
 
-* {
-  overflow-x: hidden;
-}
-
 .gradient-text {
   background: linear-gradient(
     to right,

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import BackHomeButton from '@/components/backHomeButton'
 
 export default function About() {
   return (
@@ -14,12 +15,7 @@ export default function About() {
             {/* Left Section */}
             <div className="w-[45%] pr-10">
               <div className="w-96">
-                <div>
-                  <a className="mb-6 flex flex-col items-center w-fit" href="./">
-                    <img className="w-7 h-7" src="./home.svg" alt="home icon" />
-                    <span>Home</span>
-                  </a>
-                </div>
+                <BackHomeButton variant={'dark'} />
                 <div className="flex justify-center mb-6 ">
                   <img
                     alt="Leo Club of Kathmandu Prayasnagar logo"
@@ -99,7 +95,7 @@ export default function About() {
                   <div className="mb-6 flex">
                     <img className="min-w-25 h-25 -mt-5" src="./tick.png" alt="tick" />
                     <div className="text-justify text-white">
-                      <h3 className="text-xl mb-5 mt-3 text-[#DFBF7F]">Cub Details</h3>
+                      <h3 className="text-xl mb-5 mt-3 text-[#DFBF7F]">Club Details</h3>
                       <p>Club ID : 140727</p>
                       <p>Sponsored by : Lions Club of Kathmandu Prayasnagar</p>
                       <p> Charter Date : January 13, 2020</p>
@@ -166,7 +162,7 @@ export default function About() {
           <div className="flex mt-15">
             <img className="min-w-20 h-20 -mt-6 -ml-5" src="./tick.png" alt="tick" />
             <div>
-              <h3 className="text-xl ">Cub Details</h3>
+              <h3 className="text-xl ">Club Details</h3>
             </div>
           </div>
           <p>Club ID : 140727</p>
