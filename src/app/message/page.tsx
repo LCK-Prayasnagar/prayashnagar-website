@@ -25,7 +25,7 @@ export default function WelcomePage() {
         </h1>
         <hr className="border-t border-white mb-4 w-16 mx-auto md:mx-0" />
         <div>
-          <h3 className="font-semibold text-white text-lg mb-2">" ICON</h3>
+          <h3 className="font-semibold text-white text-lg mb-2">ICON</h3>
           <p className="text-white text-base leading-relaxed">
             As the President of Leo Club of Kathmandu Prayasnagar, I am delighted to welcome you to
             our vibrant community of passionate young leaders. Since our founding, we have strived

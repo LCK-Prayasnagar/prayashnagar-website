@@ -1,4 +1,8 @@
-const BackHomeButton = ({ variant }) => {
+interface BackHomeButtonProps {
+  variant: string
+}
+
+const BackHomeButton = ({ variant }: BackHomeButtonProps) => {
   return (
     <div>
       <a className="mb-6 flex flex-col items-center w-fit" href="./">
