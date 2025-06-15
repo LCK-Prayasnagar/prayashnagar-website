@@ -15,7 +15,7 @@ const navigation = [
   { name: 'Message From The President', href: '/message', current: false },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: (string | undefined | null | false)[]): string {
   return classes.filter(Boolean).join(' ')
 }
 
