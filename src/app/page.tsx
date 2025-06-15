@@ -172,7 +172,7 @@ export default function Home() {
                   organization committed to leadership, community, impact. As part of Leo
                 </p>
                 {/* About Us Button */}
-                <Navbar />
+                <Navbar variant="vertical" />
                 <div className="flex align-bottom gap-5 mt-16 justify-end">
                   <div className="flex cursor-pointer items-center gap-2">
                     <svg
