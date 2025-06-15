@@ -150,7 +150,7 @@ const BoardMembers = () => {
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
             <div className="relative inline-block">
-              <h1 className="text-5xl md:text-6xl font-bold text-company-blue mb-1">
+              <h1 className="text-3xl md:text-3xl font-bold text-company-blue mb-1">
                 OUR LEADERSHIP
               </h1>
             </div>
@@ -159,7 +159,7 @@ const BoardMembers = () => {
           {/* Advisors Section */}
           <div className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-company-blue mb-4">ADVISORS</h2>
+              <h2 className="text-2xl font-bold text-company-blue mb-4">ADVISORS</h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -201,7 +201,7 @@ const BoardMembers = () => {
           {/* Board Members Section */}
           <div>
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-company-blue mb-4">BOARD MEMBERS</h2>
+              <h2 className="text-2xl font-bold text-company-blue mb-4">BOARD MEMBERS</h2>
             </div>
 
             {/* Leadership Row - President & Vice President */}

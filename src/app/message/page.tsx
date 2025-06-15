@@ -13,8 +13,8 @@ export default function WelcomePage() {
           </div>
           <div className="mt-4 bg-[#F5D186] text-white px-6 py-2 rounded-md font-semibold text-lg shadow-md">
             Leo Nabin Basnet
-            <div className="text-sm font-normal text-gray-200 ">President</div>
-            <div className="text-sm font-normal text-gray-200">
+            <div className="text-sm font-normal text-gray-200 text-white ">President</div>
+            <div className="text-sm font-normal text-gray-200 text-white">
               Leo Club Of Kathmandu Prayasnagar
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function WelcomePage() {
             <h3 className="font-semibold text-white text-lg mb-2">
               <FaQuoteLeft />
             </h3>
-            <p className="text-white text-base leading-relaxed">
+            <p className="text-white text-base leading-relaxed text-justify">
               As the President of Leo Club of Kathmandu Prayasnagar, I am delighted to welcome you
               to our vibrant community of passionate young leaders. Since our founding, we have
               strived to create a space where youth can come together, learn, lead, and serve with
