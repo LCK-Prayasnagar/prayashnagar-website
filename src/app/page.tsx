@@ -5,6 +5,7 @@ import { FaInstagramSquare } from 'react-icons/fa'
 import { AiFillTikTok } from 'react-icons/ai'
 import { BsThreadsFill } from 'react-icons/bs'
 import { MdMarkEmailUnread } from 'react-icons/md'
+import Navbar from '@/components/navbar'
 
 export default function Home() {
   return (
@@ -31,26 +32,8 @@ export default function Home() {
                   Leo Club of Kathmandu Prayasnagar, founded on January 13, 2020, is a youth-led
                   organization committed to leadership, community, impact. As part of Leo
                 </p>
-                {/* About Us Button */}
-                <a
-                  className="inline-block px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
-                  href="/about"
-                >
-                  About Us →
-                </a>
 
-                <a
-                  className="inline-block px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
-                  href="/team"
-                >
-                  Our Team →
-                </a>
-                <a
-                  className="inline-block px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
-                  href="/message"
-                >
-                  Message From The President →
-                </a>
+                <Navbar />
 
                 {/* Location and Contact Icons */}
                 <div className="flex align-bottom gap-14 mt-28">
@@ -189,30 +172,7 @@ export default function Home() {
                   organization committed to leadership, community, impact. As part of Leo
                 </p>
                 {/* About Us Button */}
-                <div className="flex justify-end mr-3">
-                  <a
-                    className="px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
-                    href="/about"
-                  >
-                    About Us →
-                  </a>
-                </div>
-                <div className="flex justify-end mr-3">
-                  <a
-                    className="px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
-                    href="/team"
-                  >
-                    Our Team →
-                  </a>
-                </div>
-                <div className="flex justify-end mr-3">
-                  <a
-                    className="px-6 py-2 bg-white text-blue-900 rounded-md font-semibold hover:bg-gray-200 transition-colors z-10"
-                    href="/message"
-                  >
-                    Message From The President
-                  </a>
-                </div>
+                <Navbar />
                 <div className="flex align-bottom gap-5 mt-16 justify-end">
                   <div className="flex cursor-pointer items-center gap-2">
                     <svg
@@ -237,23 +197,6 @@ export default function Home() {
                     </svg>
                     <span>Prayasnagar, Basundhara </span>
                   </div>
-                  {/* <div className="flex cursor-pointer items-center gap-2">
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                      />
-                    </svg>
-                    <span>lckprayasnagar325l@gmail.com</span>
-                  </div> */}
                 </div>
               </div>
             </div>
