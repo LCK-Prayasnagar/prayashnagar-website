@@ -1,14 +1,14 @@
-import BackHomeButton from '@/components/backHomeButton'
+import { FaQuoteLeft } from 'react-icons/fa'
 
 export default function WelcomePage() {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-[linear-gradient(to_bottom,#F5D186,#12184F)] p-6 md:p-12 text-gray-900">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center  bg-[#12184F] p-6 md:p-12 text-gray-900">
       {/* Left Section: Image and Name */}
       <div className="flex flex-col items-center text-center md:mr-12 mb-8 md:mb-0">
-        <div className="w-90 h-90 rounded-full overflow-hidden border-8 border-white shadow-lg">
-          <img src="/ceo.jpg" alt="CEO Demish Tornado" className="object-cover w-full h-full" />
+        <div className="w-90 h-90 rounded-full overflow-hidden border-8 border-[#F5D186] shadow-lg">
+          <img src="/ceo.jpg" alt="Club President" className="object-cover w-full h-full" />
         </div>
-        <div className="mt-4 bg-[linear-gradient(to_right,#12184F,#F5D186)] text-white px-6 py-2 rounded-md font-semibold text-lg shadow-md">
+        <div className="mt-4 bg-[#F5D186] text-white px-6 py-2 rounded-md font-semibold text-lg shadow-md">
           Leo Nabin Basnet
           <div className="text-sm font-normal text-gray-200 ">President</div>
           <div className="text-sm font-normal text-gray-200">Leo Club Of Kathmandu Prayasnagar</div>
@@ -23,9 +23,11 @@ export default function WelcomePage() {
         <h1 className="text-3xl md:text-4xl font-bold leading-snug mb-4 text-white">
           From <span className="text-white">the President</span>
         </h1>
-        <hr className="border-t border-white mb-4 w-16 mx-auto md:mx-0" />
+        <hr className="border-t border-[#F5D186] mb-4 w-16 mx-auto md:mx-0" />
         <div>
-          <h3 className="font-semibold text-white text-lg mb-2">ICON</h3>
+          <h3 className="font-semibold text-white text-lg mb-2">
+            <FaQuoteLeft />
+          </h3>
           <p className="text-white text-base leading-relaxed">
             As the President of Leo Club of Kathmandu Prayasnagar, I am delighted to welcome you to
             our vibrant community of passionate young leaders. Since our founding, we have strived

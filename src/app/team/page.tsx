@@ -1,4 +1,3 @@
-import BackHomeButton from '@/components/backHomeButton'
 import { Card } from '../../components/ui/card'
 
 const BoardMembers = () => {
@@ -147,27 +146,17 @@ const BoardMembers = () => {
       <div className="max-w-7xl mx-auto px-4 py-12">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <BackHomeButton variant={''} />
           <div className="relative inline-block">
-            <h1 className="text-5xl md:text-6xl font-bold text-company-blue mb-4">
+            <h1 className="text-5xl md:text-6xl font-bold text-company-blue mb-1">
               OUR LEADERSHIP
             </h1>
           </div>
-          <div className="w-32 h-1 bg-company-gold mx-auto rounded-full mb-4"></div>
-          {/* <p className="text-xl text-company-blue/80 max-w-2xl mx-auto">
-            Meet the exceptional leaders guiding our organization toward continued success and
-            innovation.
-          </p> */}
         </div>
 
         {/* Advisors Section */}
         <div className="mb-20">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-company-blue mb-4">ADVISORS</h2>
-            {/* <div className="w-24 h-1 bg-company-gold mx-auto rounded-full"></div> */}
-            {/* <p className="text-lg text-company-blue/70 mt-4">
-              Strategic guidance from industry experts
-            </p> */}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -210,10 +199,6 @@ const BoardMembers = () => {
         <div>
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-company-blue mb-4">BOARD MEMBERS</h2>
-            {/* <div className="w-24 h-1 bg-company-gold mx-auto rounded-full"></div>
-            <p className="text-lg text-company-blue/70 mt-4">
-              Dedicated leaders driving our mission forward
-            </p> */}
           </div>
 
           {/* Leadership Row - President & Vice President */}
@@ -299,17 +284,6 @@ const BoardMembers = () => {
                 </Card>
               ))}
             </div>
-          </div>
-        </div>
-
-        {/* Contact Info */}
-        <div className="mt-16 text-center">
-          <div className="inline-flex items-center space-x-3 bg-company-blue text-white rounded-full px-8 py-4 shadow-lg">
-            <div className="w-4 h-4 bg-company-gold rounded-full"></div>
-            {/* <span className="font-medium">
-              SPOCs (Single Point of Contact): You can reach out with our location-specific SPOCs
-              for any queries.
-            </span> */}
           </div>
         </div>
       </div>

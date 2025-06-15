@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import BackHomeButton from '@/components/backHomeButton'
 
 export default function About() {
   return (
@@ -15,7 +14,6 @@ export default function About() {
             {/* Left Section */}
             <div className="w-[45%] pr-10">
               <div className="w-96">
-                <BackHomeButton variant={'dark'} />
                 <div className="flex justify-center mb-6 ">
                   <img
                     alt="Leo Club of Kathmandu Prayasnagar logo"
