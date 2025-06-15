@@ -1,8 +1,10 @@
 import Link from 'next/link'
+import Navbar from '@/components/navbar'
 
 export default function About() {
   return (
     <>
+      <Navbar variant="horizantal" />
       {/* for desktop */}
       <div className="bg-[#F5E9D4] relative hidden lg:block">
         <div

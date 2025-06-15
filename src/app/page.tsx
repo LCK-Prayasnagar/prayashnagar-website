@@ -33,7 +33,7 @@ export default function Home() {
                   organization committed to leadership, community, impact. As part of Leo
                 </p>
 
-                <Navbar />
+                <Navbar variant="vertical" />
 
                 {/* Location and Contact Icons */}
                 <div className="flex align-bottom gap-14 mt-28">
