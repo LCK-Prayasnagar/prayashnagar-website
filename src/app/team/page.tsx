@@ -286,7 +286,7 @@ const BoardMembers = () => {
                   >
                     <div className="p-5 text-center" style={{ backgroundColor: '#F5D186' }}>
                       <div className="relative mb-4">
-                        <div className="w-32 h-32 mx-auto rounded-full overflow-hidden shadow-lg ring-3 ring-company-blue/20">
+                        <div className="w-36 h-36 mx-auto rounded-full overflow-hidden shadow-lg ring-3 ring-company-blue/20">
                           <img
                             src={member.image}
                             alt={member.name}
