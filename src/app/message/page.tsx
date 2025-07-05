@@ -1,5 +1,6 @@
 import { FaQuoteLeft } from 'react-icons/fa'
 import Navbar from '@/components/navbar'
+import { MEMBERS_IMAGE } from '@/constants/links'
 
 export default function WelcomePage() {
   return (
@@ -9,14 +10,16 @@ export default function WelcomePage() {
         {/* Left Section: Image and Name */}
         <div className="flex flex-col items-center text-center md:mr-12 mb-8 md:mb-0">
           <div className="w-90 h-90 rounded-full overflow-hidden border-8 border-[#F5D186] shadow-lg">
-            <img src="/ceo.jpg" alt="Club President" className="object-cover w-full h-full" />
+            <img
+              src={MEMBERS_IMAGE.NABIN}
+              alt="Club President"
+              className="object-cover w-full h-full"
+            />
           </div>
-          <div className="mt-4 bg-[#F5D186] text-white px-6 py-2 rounded-md font-semibold text-lg shadow-md">
+          <div className="mt-4 bg-[#F5D186] text-[var(--primary-color)] px-6 py-2 rounded-md font-semibold text-lg shadow-md">
             Leo Nabin Basnet
-            <div className="text-sm font-normal text-gray-200 text-white ">President</div>
-            <div className="text-sm font-normal text-gray-200 text-white">
-              Leo Club Of Kathmandu Prayasnagar
-            </div>
+            <div className="text-sm font-normal">President</div>
+            <div className="text-sm font-normal">Leo Club Of Kathmandu Prayasnagar</div>
           </div>
         </div>
 

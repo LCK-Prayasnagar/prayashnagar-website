@@ -68,7 +68,7 @@ export default function Home() {
             <div className="sm:w-[44.44%] md:w-auto flex flex-col justify-center items-center">
               <div className="w-full h-full">
                 <div className="" style={{ marginTop: '-80px' }}>
-                  <img src="./peoplesvg.png" alt="" />
+                  <img src="./heroSVG.png" alt="" />
                 </div>
                 {/* Main Heading */}
                 <h1 className="lg:text-5xl xl:text-6xl font-bold pb-4 w-full gradient-text z-5">
